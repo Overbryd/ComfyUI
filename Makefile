@@ -11,3 +11,6 @@ setup:
 test-mps:
 	python test_mps.py
 
+cleanup:
+	rm -rf temp/*
+
